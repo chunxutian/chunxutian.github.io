@@ -168,7 +168,38 @@ h4 {
     float: right;
     box-shadow: 0 0 4px #999;
   }
-  
+
+  .homepage-news {
+    width: 80%;
+    margin: 30px auto 50px;
+  }
+
+  .homepage-news-title {
+    text-align: left;
+    font-size: 2.2rem;
+    font-variant: normal;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+
+  .homepage-news-list {
+    list-style: disc outside;
+    padding-left: 36px;
+    margin: 0;
+  }
+
+  .homepage-news-item {
+    display: list-item;
+    margin-bottom: 18px;
+    line-height: 1.7;
+  }
+
+  .homepage-news-date {
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 12px;
+  }
+
   .lastPubliImg {
     display: block;
     float: right;
