@@ -30,7 +30,7 @@
       throw new Error('Invalid statistics');
     }
     // Provider baseline 2 excludes the two pre-launch integration checks.
-    const displayed = 6789 + Math.max(0, pv - 2);
+    const displayed = 7890 + Math.max(0, pv - 2);
     today.textContent = uv.toLocaleString('en-US');
     total.textContent = displayed.toLocaleString('en-US');
   }).catch(() => {
