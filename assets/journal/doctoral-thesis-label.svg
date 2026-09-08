@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="600" viewBox="0 0 440 600" role="img">
+<title>DOCTORAL THESIS · 2019 — descriptive thumbnail, not an official cover</title>
+<rect width="440" height="600" fill="#f3f5f7"/>
+<rect x="24" y="24" width="392" height="552" rx="8" fill="#fff" stroke="#cbd5e1"/>
+<path d="M52 74H388" stroke="#64748b" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#253348">
+<text x="52" y="159" font-size="38" font-weight="700">DOCTORAL</text>
+<text x="52" y="203" font-size="20" letter-spacing="1">THESIS · 2019</text>
+<text x="52" y="290" font-size="19">Structural Synthesis and</text>
+<text x="52" y="320" font-size="19">Performance Study of</text>
+<text x="52" y="350" font-size="19">Generalized Parallel Mechanisms</text>
+<path d="M52 474H388" stroke="#cbd5e1"/>
+<text x="52" y="514" font-size="17" fill="#64748b">Descriptive thumbnail</text>
+<text x="52" y="540" font-size="16" fill="#64748b">Not an official cover</text>
+</g></svg>
