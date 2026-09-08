@@ -472,6 +472,41 @@ h4 {
               margin: .5%;
             }
 
+            .mechanism-gallery-grid {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 24px 16px;
+              clear: both;
+              padding: 8px 0 24px;
+            }
+            .mechanism-gallery-grid .gallery_item {
+              float: none;
+              width: auto !important;
+              min-width: 0;
+              margin: 0;
+            }
+            .mechanism-gallery-grid .gallery_img {
+              aspect-ratio: 4 / 3;
+              background: #fff;
+            }
+            .mechanism-gallery-grid .gallery_img a {
+              display: block;
+              height: 100%;
+            }
+            .mechanism-gallery-grid .gallery_img img {
+              height: 100%;
+              object-fit: contain;
+            }
+            .mechanism-gallery-grid .gallery_legend {
+              margin-top: 8px;
+              line-height: 1.5;
+            }
+            @media (max-width: 700px) {
+              .mechanism-gallery-grid { grid-template-columns: 1fr; }
+              .mechanism-gallery-grid .gallery_img { aspect-ratio: auto; }
+              .mechanism-gallery-grid .gallery_img img { height: auto; }
+            }
+
             .gallery_clear {
               clear: both;
             }
